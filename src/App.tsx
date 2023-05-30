@@ -20,7 +20,7 @@ const App: React.FC = () => {
   const [result, setResult] = useState('');
   const [isLoading, setIsLoading] = useState(false);
   const [proofData, setProofData] = useState<PData>({});
-  const backendBase = 'http://localhost:3000'
+  const backendBase = 'https://recanon.onrender.com'
   const backendUrl = `${backendBase}/prove-rating`
   const backendProofUrl = `${backendBase}/get-proof`
 
