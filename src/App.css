@@ -1,38 +1,108 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+body {
+    background-color: #030320;
+    color: #f05000;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  
+  .container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
   }
-  to {
-    transform: rotate(360deg);
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
   }
-}
+
+  h2 {
+    font-size: 18px;
+    color: #606dfe;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  label {
+    margin-bottom: 10px;
+  }
+  
+  input[type="number"] {
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #f05000;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .result {
+    margin-top: 20px;
+  }
+  
+  .qr-code {
+    margin-top: 20px;
+  }
+  
+  .backend-data {
+    margin-top: 40px;
+  }
+  
+  .backend-data button {
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #f05000;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .backend-data ul {
+    list-style-type: none;
+    padding: 0;
+    margin-left: 0;
+  }
+  
+  .backend-data li {
+    margin-bottom: 10px;
+    text-align: left;
+  }
+  
+  .backend-data strong {
+    font-weight: bold;
+  }
+  
+  .loading {
+    margin-top: 20px;
+  }
+  
+
+  img {
+    max-width: 200px;
+    margin-bottom: 20px;
+  }
+
+  /* ul.backend-data {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  ul.backend-data li {
+    margin-bottom: 10px;
+    text-align: left;
+  } */
+  
